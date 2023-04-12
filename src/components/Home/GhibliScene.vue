@@ -27,13 +27,13 @@
     <SceneSection id="Ghibli3">
       <TextBlock>
         <p class="-big">
-          And studying
+          Studying
           <span class="-purple"
             >Math, Coding, Video Games</span
           >
         </p>
         <p>
-          And watching anime & YouTube && bombing math competitions.
+          And watching anime/YouTube & bombing math competitions.
         </p>
       </TextBlock>
     </SceneSection>
