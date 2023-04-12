@@ -1,89 +1,62 @@
 {
-  "email": "depaula.iuri@gmail.com",
+  "email": "eric.x.hou@gmail.com",
   "links": [
     {
-      "url": "https://www.linkedin.com/in/iuridepaula/",
+      "url": "https://www.linkedin.com/in/",
       "title": "LinkedIn",
       "icon": "LinkedInIcon"
     },
     {
-      "url": "https://github.com/iuridepaula",
+      "url": "https://github.com/erichou1",
       "title": "GitHub",
       "icon": "GithubIcon"
     }
   ],
   "cv": {
-    "file": "iuri.depaula.cv.pdf",
+    "file": "",
     "title": "Download CV",
     "label": "CV"
   },
   "description": [
-    "Frontend developer heavily influenced by storytelling, interactions, and UX. Addicted to music, visual arts, and games.",
-    "From Brazil, based in Barcelona."
+    "Full Stack developer heavily influenced by interactions, thoughts, and coffee.",
+    "From California, based in the San Francisco Bay Area."
   ],
   "subtitles": ["he/him"],
   "skills": [
-    ["Web app architecture", "Strategic thinking", "Storytelling"],
-    ["Frontend", "UX/UI"],
+    ["Web app architecture", "Problem Solving", "Teamwor"],
+    ["Frontend & Backend", "UX/UI"],
     [
       "JavaScript",
       "CSS",
       "HTML",
-      "React",
-      "Vue",
-      "Node",
-      "Canvas",
-      "SVG",
-      "WebGL"
+      "Python",
+      "Django",
+      "Three.js",
+      "PHP"
     ],
-    ["Figma", "Photoshop", "Illustrator"]
+    ["Figma", "Photoshop", "Adobe Premiere"]
   ],
   "experiences": [
     {
-      "position": "Senior Frontend Engineer",
-      "company": "Activision Blizzard King",
+      "position": "CoFounder & Lead Software Engineer",
+      "company": "HackX Hackathon",
       "time": "* current"
     },
     {
-      "position": "Senior Frontend Engineer",
-      "company": "ON AG",
-      "time": "2020-2022"
-    },
-    {
-      "position": "Senior Frontend Engineer",
-      "company": "fromAtoB",
-      "time": "2019-2020"
-    },
-    {
-      "position": "Head of Frontend & UX",
-      "company": "Biz",
-      "time": "2011 - 2019"
-    },
-    {
-      "position": "Senior Frontend Developer",
-      "company": "Tray",
-      "time": "2008 - 2010"
-    },
-    {
-      "position": "Web Designer",
-      "company": "E2W",
-      "time": "2006 - 2008"
-    },
-    {
-      "position": "Freelancer",
-      "company": "Illustrations & Web development"
+      "position": "CoFounder & Lead Software Engineer",
+      "company": "GudaNews",
+      "time": "2018-2021"
     }
   ],
   "languages": {
     "fluent": [
       ["en-US", "English"],
-      ["pt-BR", "Português"]
+      ["zh-cn", "Chinese"]
     ],
-    "intermediate": [["es-ES", "Español"]],
+    "intermediate": [["fr", "French"]],
     "basic": [
-      ["de-DE", "Deutsch"],
-      ["ca-ES", "Català"]
+      ["es-mx", "Spanish"]
     ]
   },
-  "busy": ["Pet my dog", "Spanish guitar", "Games", "#eleNÃO"]
+  "busy": ["Video Games", "Piano", "School"]
 }

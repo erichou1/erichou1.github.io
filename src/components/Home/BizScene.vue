@@ -1,26 +1,25 @@
 <template>
   <div class="bizScene">
     <TitleSection scene="bizTitle">
-      <TitleFunction params="2011,2019">biz</TitleFunction>
+      <TitleFunction params="2021,current">HackX</TitleFunction>
     </TitleSection>
 
     <SceneSection id="biz1">
       <TextBlock>
         <p class="-big">
-          From 2011 to 2019 I was
-          <strong class="-purple">Head of Frontend</strong>
+          From 2021 to now I was
+          <strong class="-purple">Lead Software Engineer</strong>
           @
           <a
-            href="https://www.bizcommerce.com.br/"
+            
             target="_blank"
             title="Visit Biz Commerce's website"
           >
-            biz</a
+            HackX</a
           >.
         </p>
         <p>
-          A SaaS e-commerce platform focused on simplifying and customizing the
-          use of Magento.
+          One of the largest high school/middle school hackathon on the West Coast.
         </p>
       </TextBlock>
       <template #container>
@@ -38,22 +37,21 @@
     <SceneSection id="biz2">
       <TextBlock>
         <p>
-          Throughout these years we delivered hundreds of
+          Throughout these years we created
           <span class="-big -purple">
-            tools, modules, integrations, and custom projects
+            websites, marketing campaigns, and sponsorships
           </span>
-          for online stores and service providers.
+          with numerous name brands to allow thousands of students the enjoyment of a hackathon
         </p>
       </TextBlock>
     </SceneSection>
     <SceneSection id="biz3">
       <TextBlock>
         <p>
-          biz currently runs
+          HackX currently has had
           <span class="-big">
-            <span class="-purple">+1200 stores</span>, payment & shipping
-            integrations with
-            <span class="-purple">thousands of transactions</span> daily.
+            <span class="-purple">+500 participants</span>, with
+            <span class="-purple">tens of thousands of dollars</span> in prizes.
           </span>
         </p>
       </TextBlock>

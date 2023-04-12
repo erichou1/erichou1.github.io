@@ -32,15 +32,7 @@
           Keep scrolling, you're near the end!
 
           <div class="later">
-            ;)
-            <button
-              class="mario-msg-close"
-              type="button"
-              title="Close message"
-              @click="onCloseMessage"
-            >
-              ✕
-            </button>
+            :)
           </div>
         </div>
       </div>

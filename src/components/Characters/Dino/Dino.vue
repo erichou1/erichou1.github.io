@@ -11,14 +11,14 @@ import DinoSVG from './DinoSVG.vue'
 import { LOOP, LOOP_EASE_IN_OUT } from '../../../constants'
 
 const SONGS = [
-  // Pink Floyd - Dogs
-  'https://open.spotify.com/track/2jvuMDqBK04WvCYYz5qjvG?si=J8VxjC6BR2Kg4Y6eXHqQCQ',
-  // The Doors - Spanish Caravan
-  'https://open.spotify.com/track/32bJv8V2Xgi5mtxdPcsi8B?si=enqG9uk2Q6SYhhAZtRimGQ',
-  // BadBadNotGood - Speaking Gently
-  'https://open.spotify.com/track/1pYBTRBbp3PCcdqoke2QSN?si=IMrSO7bhTJCrLgdvwj46xQ',
-  // Future Islands - Seasons
-  'https://open.spotify.com/track/2oPoWNzWrFonvqrkZtmX52?si=jgc8oNB_Qdqx1vnU0gKnLA',
+  // To My Youth - Bol4
+  'https://open.spotify.com/track/4gMPlHHAjOQnUrhsuqHivn?si=2b3faf4d797846b2',
+  // Hope Not - Blackpink
+  'https://open.spotify.com/track/3eZD5DZGibwxMAOaCMBg3k?si=420d8ca4dcc14223',
+  // I Wish My Heart Would Reach You
+  'https://open.spotify.com/track/10GxwL6cJ79Zx3zF6m6DLZ?si=076c9527d40b41d2',
+  // Blueming - IU
+  'https://open.spotify.com/track/4Dr2hJ3EnVh2Aaot6fRwDO?si=4723b33259424c47',
 ]
 
 export default {
@@ -45,34 +45,11 @@ export default {
       const teeth1 = document.querySelector('#dino .teeth1')
       const teeth2 = document.querySelector('#dino .teeth2')
       const mouthChillout = document.querySelector('#dino .mouth-chillout')
-      const mouthFuckYeah = document.querySelector('#dino .mouth-fuck-yeah')
+      const mouth = document.querySelector('#dino .mouth')
       let rotationZ = this.rhythm * 32
 
       // dance to the song rythm
-      switch (this.song) {
-        case 1:
-          // Pink Floyd - Dogs
-          bright.style.display = 'none'
-          teeth1.style.display = 'none'
-          teeth2.style.display = 'none'
-          mouthChillout.style.display = 'none'
-          mouthFuckYeah.style.display = ''
-          break
-        case 2:
-          // The Doors - Spanish Caravan
-          rotationZ = this.rhythm * 8
-          this.rhythm = 1
-          bright.style.display = 'none'
-          teeth1.style.display = 'none'
-          teeth2.style.display = 'none'
-          mouthChillout.style.display = 'none'
-          mouthFuckYeah.style.display = ''
-          break
-        case 3:
-          // BadBadNotGood - Speaking Gently
-          this.rhythm = 0.2
-          break
-      }
+
 
       // add song link
       document.querySelector('.dino-head').addEventListener('click', () => {

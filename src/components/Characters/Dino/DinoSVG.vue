@@ -67,7 +67,7 @@
           d="M47.7 49.1c9 .1 12.9-2 14-5.5"
         />
         <path
-          class="mouth-fuck-yeah"
+          class="mouth"
           style="display: none;"
           fill="none"
           stroke="#002c58"

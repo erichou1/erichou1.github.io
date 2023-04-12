@@ -2,7 +2,7 @@
   <div class="earlyDays">
     <TitleSection scene="earlyTitle">
       <TitleFunction
-        params="2008,2011"
+        params="2018,2021"
         subtitle="&lt;table&gt;&lt;tr&gt;&lt;td&gt;..."
         >earlyDays</TitleFunction
       >
@@ -18,7 +18,7 @@
       <TextBlock>
         <p>Design & illustration.</p>
         <p class="-big">
-          A frontend developer<br />
+          A full-stack developer<br />
           <span class="-purple">with one foothold in arts.</span>
         </p>
       </TextBlock>
@@ -26,26 +26,24 @@
     <SceneSection id="early-days2">
       <TextBlock>
         <p class="-big">
-          <span class="-purple">Freelancing</span> &
-          <span class="-purple">startuping,</span><br />
-          <span class="-purple">Inches</span> &
-          <span class="-purple">pixels.</span>
+          From <span class="-purple">Imagination</span>, to
+          <span class="-purple"> Design</span> to
+          <span class="-purple">Creation</span>
         </p>
         <p>
-          Illustrating album arts, book covers, and billboards as a freelancer.
-          And designing websites, online magazines, and news portals at my first
-          web studio.<br />
+          Illustrating websites and platforms, pixel by pixel and inches by inches.
+
         </p>
       </TextBlock>
     </SceneSection>
     <SceneSection id="early-days3">
       <TextBlock>
         <p>
-          We've proudly fueled the starring<br />
-          of some big Brazilian names such as
+          We've proudly partned with<br />
+          some of the big names such as
           <span class="-big -purple"
-            ><em>Porta dos Fundos</em>, <em>Kibe Loco</em>, Fhits.tv,
-            <em>Galo Frito</em></span
+            ><em>Google</em>, <em>Amazon</em>, Microsoft,
+            <em>Tesla</em></span
           >
           among many others...
         </p>

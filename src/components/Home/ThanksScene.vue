@@ -14,11 +14,12 @@
             <li>ScrollMagic</li>
             <li>Photoshop</li>
             <li>Illustrator</li>
+            <li>Svgator</li>
           </ul>
           <ul class="col">
             <li class="ico">~</li>
-            <li>+62 cups of coffee</li>
-            <li>Endless references</li>
+            <li>+20 cups of coffee</li>
+            <li>Too Much Stack Overflow</li>
             <li>2 easter eggs</li>
           </ul>
           <ul class="col songs">
@@ -49,38 +50,33 @@ import SceneSection from '../SceneSection.vue'
 const SPOTIFY_TRACK = 'https://open.spotify.com/track/'
 const SONGS = [
   {
-    id: '1pYBTRBbp3PCcdqoke2QSN',
-    label: 'BadBadNotGood',
+    id: '4gMPlHHAjOQnUrhsuqHivn?si=2b3faf4d797846b2',
+    label: 'To My Youth - BOL4',
   },
 
   {
-    id: '2pCnrWHxYVDWN3S4PgNMa0',
-    label: 'Khruangbin',
+    id: '3eZD5DZGibwxMAOaCMBg3k?si=420d8ca4dcc14223',
+    label: 'Hope Not - Blackpink',
   },
 
   {
-    id: '30JzduBPzHCnaErOkczzin',
-    label: 'Toumani Diabaté',
+    id: '10GxwL6cJ79Zx3zF6m6DLZ?si=076c9527d40b41d2',
+    label: 'I Wish My Heart Would Reach You - U Sung Eun',
   },
 
   {
-    id: '5TLObp1kSrfgCZVBIpYGtQ',
-    label: 'Astor Piazzola',
+    id: '4Dr2hJ3EnVh2Aaot6fRwDO?si=4723b33259424c47',
+    label: 'Blueming - IU',
   },
 
   {
-    id: '7cwPQGHgob1v9pek8WnQRx',
-    label: 'Isao Tomita',
+    id: '6TBJkXHPhu3EsMk1bshwuI?si=002a15c8de804b69',
+    label: 'Only - Leehi',
   },
 
   {
-    id: '5I5mTVbYfzg39b0PgVRrTo',
-    label: 'Ryiuchi Sakamoto',
-  },
-
-  {
-    id: '2JNNbg38OtPLFoc66isKPQ',
-    label: 'Caetano Veloso',
+    id: '3SfbB0Y3saMIQnNctxMVhj?si=5ea13172fbda41d0',
+    label: 'I Miss You - SOYOU',
   },
 ]
 

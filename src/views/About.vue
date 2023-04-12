@@ -2,7 +2,7 @@
   <div id="about" class="wrapper">
     <div class="pic"></div>
     <div class="static-container">
-      <h1 class="title">about(<span class="params">iuri</span>)</h1>
+      <h1 class="title">about(<span class="params">eric</span>)</h1>
 
       <TextBlock>
         <div class="first-fold">
@@ -188,7 +188,7 @@ export default {
     width: 43vw;
     aspect-ratio: 1/1;
     border-radius: 100%;
-    background-image: url(../assets/me.jpg);
+    background-image: url("https://storage.prompt-hunt.workers.dev/clf4utl7t0001l708o5d6deg2_3");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

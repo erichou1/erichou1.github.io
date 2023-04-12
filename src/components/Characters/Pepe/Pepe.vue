@@ -1,51 +1,14 @@
 <template>
   <div>
     <div class="pepe bg-head">
-      <div class="blink"></div>
-      <div class="keyboard"></div>
-      <div class="minas"></div>
-      <div class="rio">
-        <div class="particles"></div>
-        <div class="vase">
-          <div class="bg-rio_vase_foliage_3"></div>
-          <div class="bg-rio_vase_foliage_2"></div>
-          <div class="bg-rio_vase_foliage_1"></div>
-          <div class="bg-rio_vase"></div>
-        </div>
-        <div class="bg-rio_pao_cristo"></div>
-
-        <div class="waterfall"></div>
-
-        <div class="bg-rio_palmtree_1"></div>
-        <div class="bg-rio_palmtree_2"></div>
-      </div>
-      <div class="am-pa">
-        <div class="bg-ampa_foliage_3"></div>
-        <div class="bg-ampa_tree_2"></div>
-        <div class="bg-ampa_foliage_2"></div>
-        <div class="bg-ampa_parrot_wing"></div>
-        <div class="bg-ampa_foliage_1"></div>
-        <div class="bg-ampa_ver_o_peso"></div>
-        <div class="bg-ampa_tree_1"></div>
-        <div class="bg-ampa_oxes"></div>
-      </div>
-      <div class="metals">
-        <div class="bg-metals_sax"></div>
-        <div class="bg-metals_trumpet"></div>
-        <div class="bg-metals_trombone">
-          <div class="bg-metals_trombone_thing"></div>
-        </div>
-      </div>
-
-      <div class="bonfim-church"></div>
-      <div class="bonfim b1"></div>
-
-      <div class="ear bg-head-ear"></div>
+  <astronaut2></astronaut2>
     </div>
+    
   </div>
 </template>
 
 <script>
+import astronaut2 from './PepeSVG.vue'
 import { TimelineMax } from 'gsap'
 import { random } from '@/utils'
 import { character } from '../character.mixin'
@@ -55,10 +18,10 @@ import {
   LOOP_EASE_OUT,
   LOOP_ELASTIC_OUT,
 } from '../../../constants'
-
 export default {
   name: 'PepeCharacter',
   mixins: [character],
+  components: { astronaut2 },
   data() {
     return {
       particlesLoops: [],
@@ -67,17 +30,13 @@ export default {
   methods: {
     initParticles() {
       if (this.$viewport.isMobile) return
-
       const particlesCount = this.$viewport.isTablet ? 10 : 15
       const particles = document.querySelector('.pepe .particles')
-
       if (!particles) return
-
       for (let i = 0, particle; i < particlesCount; i++) {
         particle = document.createElement('div')
         particle.className = `particle p${i}`
         particles.appendChild(particle)
-
         this.particlesLoops[i] = new TimelineMax()
         this.particlesLoops[i]
           .delay(random(0, 7))
@@ -93,7 +52,6 @@ export default {
     },
     init() {
       this.initParticles()
-
       // head
       const ampa_parrot = document.querySelector('.bg-ampa_parrot_wing')
       const metal_sax = document.querySelector('.bg-metals_sax')
@@ -106,7 +64,6 @@ export default {
       const blink = document.querySelector('.pepe .blink')
       const ear = document.querySelector('.bg-head-ear')
       const rhythm = 0.3
-
       this.loop
         .addLabel('start', 0)
         // pepe
@@ -123,7 +80,6 @@ export default {
           },
           'start'
         )
-
       if (!this.$viewport.isMobile) {
         this.loop
           // metals
@@ -171,7 +127,6 @@ export default {
             'start'
           )
       }
-
       if (this.$viewport.isDesktop) {
         this.loop
           // parrot
@@ -233,13 +188,11 @@ export default {
     }
   }
 }
-
 .pepe {
   position: relative;
   z-index: 2;
   transform: scale(0.6);
   transform-origin: 0 0;
-
   &.bg-head {
     width: 1262px;
     height: 1651px;
@@ -445,7 +398,6 @@ export default {
     background: url('./assets/rio-waterfall.png') 0 0 no-repeat;
     background-size: 1056px 436px;
     animation: waterfall 0.25s steps(4) infinite;
-
     @keyframes waterfall {
       to {
         background-position: -1056px 0;
@@ -480,13 +432,11 @@ export default {
     background-size: 1210px 209px;
     opacity: 0.8;
     animation: bonfim 0.37s steps(5) infinite;
-
     @keyframes bonfim {
       to {
         background-position: -1210px 0;
       }
     }
-
     &.b2 {
       animation-duration: 0.54s;
       transform-origin: 0 center;
@@ -510,7 +460,6 @@ export default {
       height: 1rem;
       border-radius: 100%;
       background: #b90068;
-
       &:nth-child(4n + 1) {
         background: #b90068;
       }
