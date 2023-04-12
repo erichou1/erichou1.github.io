@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       foundCoins: 0,
-      coinsToBeFound: 16,
+      coinsToBeFound: 5,
       hasTouched: false,
       blockAnimation: new TimelineMax(),
       coinAnimation: new TimelineMax(),

@@ -13,7 +13,7 @@
                 <component v-if="link.icon" :is="link.icon" />
               </a>
             </li>
-            <li v-if="data.cv">
+            <!-- <li v-if="data.cv">
               Download my
               <a
                 :href="`./${data.cv.file}`"
@@ -24,7 +24,7 @@
                 {{ data.cv.label }}
                 <CVIcon />
               </a>
-            </li>
+            </li> -->
           </ul>
 
           <p class="-purple">
