@@ -6,5 +6,7 @@ module.exports = {
     port: '3000', // CHANGE YOUR PORT HERE!
     https: false,
     hotOnly: false,
+    compress: true,
+    disableHostCheck: true,
   },
 }
